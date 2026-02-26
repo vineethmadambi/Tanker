@@ -7,52 +7,73 @@ from datetime import datetime
 API_KEY = os.getenv("TANKER_API_KEY")
 CSV_FILE = "fuel_history.csv"
 
-# Coordinates for Kaiserslautern
-URL = f"https://creativecommons.tankerkoenig.de/json/list.php?lat=49.4401&lng=7.7491&rad=10&sort=dist&type=all&apikey={API_KEY}"
+# Cities to track: name, lat, lng, radius (km)
+CITIES = [
+    {"name": "Kaiserslautern", "lat": 49.4401, "lng": 7.7491,  "rad": 10},
+    {"name": "Neustadt",       "lat": 49.3517, "lng": 8.1381,  "rad": 10},
+    {"name": "Mannheim",       "lat": 49.4875, "lng": 8.4660,  "rad": 10},
+]
 
-# 2. Fetch new data
-response = requests.get(URL).json()
+# 2. Check if we should save this run (only once per hour)
+now = datetime.now()
+should_save = False
 
-if response["ok"]:
-    new_data = pd.DataFrame(response["stations"])
-    new_data['timestamp'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+if os.path.exists(CSV_FILE):
+    try:
+        history = pd.read_csv(CSV_FILE)
+        last_timestamp = pd.to_datetime(history['timestamp']).max()
+        minutes_since_last_save = (now - last_timestamp).total_seconds() / 60
+        should_save = minutes_since_last_save >= 60
+        print(f"Last save was {int(minutes_since_last_save)} minutes ago. Saving: {should_save}")
+    except Exception as e:
+        print(f"Could not read history file: {e}. Will save fresh.")
+        should_save = True
+else:
+    should_save = True  # First run, always save
+    print("No history file found. This is the first run.")
 
-    # Check if we already have a history file to compare against
+# 3. Fetch data for all cities
+all_data = []
+
+for city in CITIES:
+    URL = (
+        f"https://creativecommons.tankerkoenig.de/json/list.php"
+        f"?lat={city['lat']}&lng={city['lng']}&rad={city['rad']}"
+        f"&sort=dist&type=all&apikey={API_KEY}"
+    )
+    try:
+        response = requests.get(URL, timeout=10).json()
+        if response.get("ok"):
+            df = pd.DataFrame(response["stations"])
+            df['city'] = city['name']          # Add city column
+            df['timestamp'] = now.strftime("%Y-%m-%d %H:%M:%S")
+            all_data.append(df)
+            print(f"✓ {city['name']}: {len(df)} stations fetched")
+        else:
+            print(f"✗ {city['name']}: API returned not ok")
+    except Exception as e:
+        print(f"✗ {city['name']}: Error fetching data – {e}")
+
+if not all_data:
+    print("No data fetched at all. Exiting.")
+    exit()
+
+# 4. Combine all cities into one DataFrame
+new_data = pd.concat(all_data, ignore_index=True)
+
+# Always print current prices to the Actions log
+print("\n===== CURRENT PRICES =====")
+cols_to_show = ['city', 'name', 'brand', 'diesel', 'e5', 'e10', 'dist']
+available_cols = [c for c in cols_to_show if c in new_data.columns]
+print(new_data[available_cols].to_string(index=False))
+print("==========================\n")
+
+# 5. Save to CSV if one hour has passed (or first run)
+if should_save:
     if os.path.exists(CSV_FILE):
-        try:
-            # Load current history
-            history = pd.read_csv(CSV_FILE)
-
-            # Get the very last recorded price for each unique station ID
-            last_known = history.sort_values('timestamp').groupby('id').tail(1)
-
-            # Merge new data with the last known data to compare side-by-side
-            merged = new_data.merge(
-                last_known[['id', 'diesel', 'e5', 'e10']],
-                on='id',
-                suffixes=('', '_old'),
-                how='left'
-            )
-
-            # Filter: Keep only rows where price changed OR it's a new station
-            changes = merged[
-                (merged['diesel'] != merged['diesel_old']) |
-                (merged['e5'] != merged['e5_old']) |
-                (merged['e10'] != merged['e10_old']) |
-                (merged['diesel_old'].isna())  # New station found
-            ]
-
-            if not changes.empty:
-                to_save = changes[new_data.columns]
-                to_save.to_csv(CSV_FILE, mode='a', index=False, header=False)
-                print(f"Detected {len(changes)} price changes. History updated.")
-            else:
-                print("No price changes detected. Nothing to save.")
-
-        except Exception as e:
-            print(f"Error reading history, saving fresh: {e}")
-            new_data.to_csv(CSV_FILE, mode='a', index=False, header=False)
+        new_data.to_csv(CSV_FILE, mode='a', index=False, header=False)
     else:
-        # First run: create the file with headers
         new_data.to_csv(CSV_FILE, mode='w', index=False, header=True)
-        print("History file created for the first time.")
+    print(f"Saved {len(new_data)} rows to history at {now.strftime('%Y-%m-%d %H:%M:%S')}")
+else:
+    print("Skipped saving — less than 60 minutes since last save.")
