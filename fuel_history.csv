@@ -4029,3 +4029,52 @@ b344c82c-b7aa-4afa-8d47-af9219038847,Aral Tankstelle,ARAL,Mahlastraße,Frankenth
 cd8ba6a6-0cee-1ee6-a9bf-d794ad894588,JET LADENBURG WALLSTADTER STR. 67 B,JET,WALLSTADTER STR.,LADENBURG,49.48124,8.60135,9.8,1.699,1.799,1.739,True,67 B,68526,Mannheim,2026-02-28 19:02:27
 10d13975-7819-4c49-86be-3465bfdc59f9,Shell Heddesheim Viernheimer Str. 24,Shell,Viernheimer Str.,Heddesheim,49.508488,8.59823,9.8,1.709,1.809,1.749,True,24,68542,Mannheim,2026-02-28 19:02:27
 50da58dd-ba70-41cd-94a9-3d3571cdc88c,TotalEnergies Viernheim,TotalEnergies,Wormser Str.,Viernheim,49.54346,8.574265,10.0,1.699,1.769,1.709,True,2,68519,Mannheim,2026-02-28 19:02:27
+51d4b53b-a095-1aa0-e100-80009459e03a,JET KAISERSLAUTERN PARISER STR. 167,JET,PARISER STR.,KAISERSLAUTERN,49.4422,7.74836,0.2,1.649,1.789,1.729,True,167,67655,Kaiserslautern,2026-02-28 20:33:51
+a252bf23-b4cf-49d8-9f1d-1700077e1f9e,"Kaiserslautern, Pariser Str. 190",HEM,Pariser Str.,Kaiserslautern,49.442536,7.745478,0.4,1.649,1.789,1.729,True,190,67655,Kaiserslautern,2026-02-28 20:33:51
+972c3df5-7668-448c-9cc4-5e07fae18928,OIL! Tankstelle Kaiserslautern,OIL!,Pariser Straße 202,Kaiserslautern,49.440918,7.7425413,0.5,1.649,1.789,1.729,True,,67663,Kaiserslautern,2026-02-28 20:33:51
+83974c3d-c4f0-4a06-acee-cfbdf88ac8f8,T Kaiserslautern,T,Koenigstr.,Kaiserslautern,49.435072,7.753651,0.6,1.649,1.789,1.729,False,131,67655,Kaiserslautern,2026-02-28 20:33:51
+2f8ca0f1-cd12-43ab-988e-b0e3bb12d5ec,KAISERSLAUTERN - SUEDTANGENTE,AGIP ENI,Brandenburger Strasse,Kaiserslautern,49.433501559071,7.750224096894,0.7,1.689,1.809,1.749,True,1,67663,Kaiserslautern,2026-02-28 20:33:51
+1921dcf2-68c9-440a-ab46-4f5c60e6042a,Shell Kaiserslautern Hohenecker Str. 20,Shell,Hohenecker Str.,Kaiserslautern,49.433104,7.744317,0.9,1.709,1.809,1.749,True,20,67663,Kaiserslautern,2026-02-28 20:33:51
+c7caf231-0e47-40db-92de-9349a2eb2bef,Aral Tankstelle,ARAL,Trippstadter Straße,Kaiserslautern,49.433754,7.757465,0.9,1.699,1.819,1.759,True,83,67663,Kaiserslautern,2026-02-28 20:33:51
+94df48be-757b-424b-8b57-07844e0425a3,Shell Kaiserslautern Burgstr. 40,Shell,Burgstr.,Kaiserslautern,49.446862,7.763195,1.3,1.699,1.809,1.749,True,40,67659,Kaiserslautern,2026-02-28 20:33:51
+c691499f-69da-436c-b154-282030f77692,Shell Kaiserslautern Merkurstr. 20,Shell,Merkurstr.,Kaiserslautern,49.443273,7.726655,1.7,1.709,1.809,1.749,True,20,67663,Kaiserslautern,2026-02-28 20:33:51
+3c27649d-205e-9418-a327-d299e67870bb,Kaiserslautern,Tankstelle am Waschpark,Gustave-Eiffel-Straße,Kaiserslautern,49.43837,7.72531,1.7,1.649,1.789,1.729,True,2,67663,Kaiserslautern,2026-02-28 20:33:51
+85aae4a5-89c0-44c7-b994-d8fdc325ca48,Kaiserslautern,Schuster & Sohn KG,Kohlenhofstr. 6-12,Kaiserslautern,49.4365,7.774833,1.9,1.699,1.809,1.749,True,,67663,Kaiserslautern,2026-02-28 20:33:51
+78fdc315-4672-48da-baf9-7c431655c49c,Esso Tankstelle,ESSO,ALTENWOOGSTR. 36,KAISERSLAUTERN,49.443804,7.78373,2.5,1.699,1.809,1.759,True,,67655,Kaiserslautern,2026-02-28 20:33:51
+7c5aca0f-b8e4-478e-9afb-46c2c136ae4e,Globus Handelshof St. Wendel GmbH & Co. KG  Betriebsstätte Kaiserslautern,Globus SB Warenhaus,Merkurstr.,Kaiserslautern,49.440156,7.710974,2.8,1.648,1.778,1.718,True,57,67663,Kaiserslautern,2026-02-28 20:33:51
+51d4b48c-a095-1aa0-e100-80009459e03a,JET KAISERSLAUTERN MAINZER STR. 83,JET,MAINZER STR.,KAISERSLAUTERN,49.45304,7.78833,3.2,1.659,1.799,1.739,True,83,67657,Kaiserslautern,2026-02-28 20:33:51
+adc3aa15-ae7c-46c8-997b-3fcce9a41d01,Esso Tankstelle,ESSO,OPELKREISEL 15,KAISERSLAUTERN,49.441463,7.704137,3.3,1.679,1.809,1.749,False,,67663,Kaiserslautern,2026-02-28 20:33:51
+eef314cf-a84a-4648-9284-c2df1efa36c9,Winkler-Kaiserslautern,Winkler 24h,Mainzerstraße,Kaiserslautern,49.45353,7.79195,3.4,1.649,1.779,1.729,True,110,67657,Kaiserslautern,2026-02-28 20:33:51
+b7a65da4-a0f3-4339-b72b-5d951ac03c73,Aral Tankstelle,ARAL,Mainzer Straße,Kaiserslautern,49.455753,7.795879,3.8,1.709,1.829,1.769,True,117,67657,Kaiserslautern,2026-02-28 20:33:51
+6aafd46e-f892-486b-b9c0-bee7489a5ac6,Aral Tankstelle,ARAL,Im Erfenbacher Tal,Kaiserslautern,49.421474,7.703652,3.9,1.689,1.809,1.749,False,15,67661,Kaiserslautern,2026-02-28 20:33:51
+dbb0a607-7b91-42bf-af87-0c06c45991ed,TotalEnergies Kaiserslautern,TotalEnergies,Mainzer Str.,Kaiserslautern,49.457298,7.801527,4.2,1.699,1.809,1.749,True,140,67657,Kaiserslautern,2026-02-28 20:33:51
+0d7b12a6-df95-4e49-b9c4-bf40bbb2c726,TotalEnergies Otterbach,TotalEnergies,Obere Lauter Str.,Otterbach,49.478785,7.735516,4.4,1.699,1.809,1.749,False,37,67731,Kaiserslautern,2026-02-28 20:33:51
+14b4abb5-6732-44df-917c-8097c29c80a8,Aral Tankstelle,ARAL,Lauterstraße,Otterbach,49.482838,7.730862,4.9,1.679,1.809,1.749,True,1,67731,Kaiserslautern,2026-02-28 20:33:51
+ce241717-c600-1ee9-a0b1-7269a2ad8a06,JET KAISERSLAUTERN AM RANGIERBAHNHOF 2,JET,AM RANGIERBAHNHOF,KAISERSLAUTERN,49.43285,7.68044,5.0,1.649,1.789,1.729,True,2,67661,Kaiserslautern,2026-02-28 20:33:51
+c003854a-baa7-4b89-8104-f54863187831,AVIA Otterberg,AVIA,Hauptstr.,Otterberg,49.4969,7.76797,6.5,1.679,1.809,1.749,False,2,67697,Kaiserslautern,2026-02-28 20:33:51
+b12bf789-1d71-435e-85f5-99852fa6722d,Aral Tankstelle,ARAL,Hauptstraße,Otterberg,49.499207,7.772772,6.8,1.679,1.809,1.749,False,10,67697,Kaiserslautern,2026-02-28 20:33:51
+8eff4145-4cc9-43b5-a947-25bfb070f143,Kaiserslautern,Schuster & Sohn KG,Hans-Geiger-Strasse,Kaiserslautern,49.48347,7.679766,7.0,1.719,1.819,1.759,True,5,67663,Kaiserslautern,2026-02-28 20:33:51
+2311a16f-1093-427b-8649-a42e24ad58b0,Aral Tankstelle,ARAL,Hauptstraße,Katzweiler,49.50465,7.692398,8.3,1.709,1.809,1.749,False,73,67734,Kaiserslautern,2026-02-28 20:33:51
+67278a88-ffa7-4007-a383-37262cb6bcf2,Aral Tankstelle,ARAL,Hauptstraße,Weilerbach,49.477554,7.637979,9.0,1.679,1.819,1.759,True,77a,67685,Kaiserslautern,2026-02-28 20:33:51
+d2bcf147-1196-433a-8030-8c50546a8e5e,Esso Tankstelle,ESSO,HAUPTSTR. 71,WEILERBACH,49.47843,7.63702,9.2,1.679,1.819,1.759,True,,67685,Kaiserslautern,2026-02-28 20:33:51
+69c90288-bea6-4d21-8734-22f4c13b96db,Tankstelle Hochspeyer 24h,Tankstelle Hochspeyer 24h,Hauptstraße,Hochspeyer,49.44324,7.883134,9.7,1.689,1.809,1.759,True,13,67691,Kaiserslautern,2026-02-28 20:33:51
+51d4b6cb-a095-1aa0-e100-80009459e03a,JET NEUSTADT AN DER WEINSTR. LANDAUER STR. 58-60,JET,LANDAUER STR.,NEUSTADT AN DER WEINSTR.,49.34734,8.15157,1.1,1.689,1.759,1.699,True,58-60,67434,Neustadt,2026-02-28 20:33:51
+c4c59cea-3b83-46d0-b783-134c25c65df7,Shell Neustadt an der Weinstr. Mussbacher Landstr. 16,Shell,Mussbacher Landstr.,Neustadt an der Weinstr.,49.359376,8.151276,1.3,1.729,1.809,1.749,True,16,67433,Neustadt,2026-02-28 20:33:51
+01a94df2-5e6e-4a4a-b1f5-e2612e25a62f,Shell Neustadt An Der Weinstr. Landauer Str. 121,Shell,Landauer Str.,Neustadt An Der Weinstr.,49.344506,8.152852,1.3,1.719,1.809,1.749,True,121,67434,Neustadt,2026-02-28 20:33:51
+d8ed2fee-5ca2-40de-b333-efb8456dcf7c,Aral Tankstelle,ARAL,Branchweilerhofstraße,Neustadt,49.35071,8.163982,1.9,1.709,1.769,1.709,True,104,67433,Neustadt,2026-02-28 20:33:51
+00060085-0002-4444-8888-acdc00000002,Autohaus Holz GmbH Neustadt,,Branchweilerhofstraße,Neustadt,49.351058959961,8.1667890548706,2.1,1.699,1.729,,True,87,67433,Neustadt,2026-02-28 20:33:51
+2312e195-7079-4b95-b370-d220fa7e3cbd,Globus Handelshof St. Wendel GmbH & Co. KG Betriebsstätte Neustadt,Globus SB Warenhaus,Adolf-Kolping-Str.,Neustadt,49.339077,8.160396,2.1,1.689,1.759,1.699,True,173,67433,Neustadt,2026-02-28 20:33:51
+e4cb9762-d54d-4f12-b3df-9adcb7947567,Aral Tankstelle,ARAL,Bahnhofstraße,Maikammer,49.30646,8.142164,5.0,1.729,1.779,1.719,True,73,67487,Neustadt,2026-02-28 20:33:51
+a6be8197-9801-423a-a08c-f201358cc9ce,Budget Oil,,Hauptstraße,Lambrecht,49.373394,8.06595,5.8,1.699,1.759,1.699,False,105,67466,Neustadt,2026-02-28 20:33:51
+e991a489-6456-38af-e040-0b0a3dfe7c4f,"Edenkoben, Staatsstr. 2",HEM,Staatsstr.,Edenkoben,49.285415,8.140352,7.4,1.689,1.759,1.699,True,2,67480,Neustadt,2026-02-28 20:33:51
+6e2aa3c2-834d-45d3-b71d-e251deb18757,Vincenzo Anzalone,Esso,Niederkircher Str.,Deidesheim,49.4104,8.1875,7.4,1.699,1.749,1.689,True,1,67146,Neustadt,2026-02-28 20:33:51
+ed2cd661-be8d-4fcb-b012-82d6672efd2d,OIL! Tankstelle Edenkoben,OIL!,Staatsstraße 19,Edenkoben,49.2842,8.14074,7.5,1.689,1.759,1.699,True,,67480,Neustadt,2026-02-28 20:33:51
+66937573-c945-4d52-8aba-08902141843c,Edenkoben,Schuster & Sohn KG,Industriering 9,Edenkoben,49.28339,8.15066,7.7,1.679,,,True,,67440,Neustadt,2026-02-28 20:33:51
+ce241717-57a4-1eda-b8cb-dff4f73a090a,JET HASSLOCH ADAM-STEGERWALD-STR. 1 A,JET,ADAM-STEGERWALD-STR.,HASSLOCH,49.34978,8.2472,7.9,1.709,1.809,1.749,True,1 A,67454,Neustadt,2026-02-28 20:33:51
+e935427e-bd37-4daf-979c-b4fe2d112981,Esso Tankstelle,ESSO,SCHUBERTSTR. 24,HASSLOCH,49.355641,8.256116,8.6,1.729,1.819,1.759,True,,67454,Neustadt,2026-02-28 20:33:51
+9462058a-4b55-4e8c-8ace-b70556a13332,Shell Hassloch Richard-Sang-Str. 1,Shell,Richard-Sang-Str.,Hassloch,49.378683,8.251625,8.8,1.729,1.819,1.759,True,1,67454,Neustadt,2026-02-28 20:33:51
+b01f066b-9b21-45c6-a687-00f5fb1a7463,Marco Gehrhardt,Esso,Lindenstr.,Haßloch,49.3557,8.2609,8.9,1.729,1.819,1.759,True,15,67454,Neustadt,2026-02-28 20:33:51
+4b3c04a2-dc5a-44b9-ab23-dfb9072e115c,Haßloch,Schuster & Sohn KG,Rudolf-Diesel Straße 4,Haßloch,49.37361,8.256667,8.9,1.719,1.809,1.749,True,,67454,Neustadt,2026-02-28 20:33:51
+3ab08783-d26f-4f4e-9f48-f39ed45a33e6,Shell Edesheim A65 Pfaelzer Weinstrasse Ost A65,Shell,A65 Pfaelzer Weinstrasse Ost A65,Edesheim,49.269754,8.153408,9.2,2.249,2.359,2.299,True,,67483,Neustadt,2026-02-28 20:33:51
+ff719585-52e4-40f3-a217-2e1b5a5c5633,Shell Edesheim A65 Pfaelzer Weinstrasse West,Shell,A65 Pfaelzer Weinstrasse West,Edesheim,49.269738,8.15341,9.2,2.179,2.319,2.259,True,,67483,Neustadt,2026-02-28 20:33:51
+9e222667-4909-4b69-a73e-46d12660e7ff,TotalEnergies Edesheim,TotalEnergies,Staatsstr.,Edesheim,49.26583,8.133551,9.6,1.699,1.779,1.719,False,47A,67483,Neustadt,2026-02-28 20:33:51
